@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/unpoly@0.57.0/dist/unpoly.min.css" integrity="sha384-zsXMcPyhYSZEF/yA0Rprx9nn7gnz84QyiSrxSH5xuo0DalUAlfSmfsxILtkg5fJ/" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <link rel="stylesheet" href="/dist/css/veil.css?v=229e4a7a74">
+  <link rel="stylesheet" href="/dist/css/veil.css?v=37b0203252">
 
   
 
@@ -25,9 +25,9 @@
   <meta name="msapplication-config" content="/icons/browserconfig.xml">
   <meta name="theme-color" content="#0d124d">
 
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Veil" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Veil Labs" />
   <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Detailed Specifications | Veil</title>
+<title>Detailed Specifications | Veil Labs</title>
 <meta name="generator" content="Jekyll v3.7.4" />
 <meta property="og:title" content="Detailed Specifications" />
 <meta property="og:locale" content="en" />
@@ -35,12 +35,12 @@
 <meta property="og:description" content="Veil blockchain technology specifications. View Veil’s codebase, GitHub repository address, mining algorithm, consensus, license, minting, and other data." />
 <link rel="canonical" href="http://localhost:4000/specs/" />
 <meta property="og:url" content="http://localhost:4000/specs/" />
-<meta property="og:site_name" content="Veil" />
-<meta property="og:image" content="http://localhost:4000/icons/logo.png" />
+<meta property="og:site_name" content="Veil Labs" />
+<meta property="og:image" content="http://localhost:4000/icons/logo.jpg" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@projectveil" />
 <script type="application/ld+json">
-{"headline":"Detailed Specifications","url":"http://localhost:4000/specs/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/icons/logo.pngs"}},"image":"http://localhost:4000/icons/logo.png","description":"Veil blockchain technology specifications. View Veil’s codebase, GitHub repository address, mining algorithm, consensus, license, minting, and other data.","@type":"WebPage","@context":"http://schema.org"}</script>
+{"headline":"Detailed Specifications","url":"http://localhost:4000/specs/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/icons/logo.jpg"}},"image":"http://localhost:4000/icons/logo.jpg","description":"Veil blockchain technology specifications. View Veil’s codebase, GitHub repository address, mining algorithm, consensus, license, minting, and other data.","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -51,37 +51,18 @@
 
 
 <div class="VeilNav VeilNav--sm md:hidden fixed z-50 pin-t pin-x" up-nav>
+
   <a up-dash href="/" class="VeilNav-logo flex flex-col items-center justify-center">
     <span class="VeilNav-logo-icon"><img src="/dist/img/logo-icon.png" class="w-16" alt=""></span>
     <span class="VeilNav-logo-type"><img src="/dist/img/logo-text.png" class="w-12" alt=""></span>
   </a>
 
   <nav class="VeilNav-menu p-10">
-    <span class="block mb-1 uppercase tracking-wide font-medium text-teal text-sm">
-      Technology
-    </span>
-    <a up-dash class="block text-lg text-white" href="/technology/">Overview</a>
-    <a up-dash class="block text-lg text-white" href="/specs/">Specifications</a>
 
-    <span class="block mb-1 mt-8 uppercase tracking-wide font-medium text-teal text-sm">
-      About
-    </span>
-    <a up-dash class="block text-lg text-white" href="/about/">About Veil</a>
-    <a up-dash class="block text-lg text-white" href="/team/">Our Team</a>
-    <a up-dash class="block text-lg text-white" href="/veil-labs/">Veil Labs</a>
-
-    <span class="block mb-1 mt-8 uppercase tracking-wide font-medium text-teal text-sm">
-      Resources
-    </span>
+    <a up-dash class="block text-lg text-white" href="/about/">About</a>
+    <a up-dash class="block text-lg text-white" href="/team/">Team</a>
     <a up-dash class="block text-lg text-white" href="/news/">News</a>
     <a up-dash class="block text-lg text-white" href="/blog/">Blog</a>
-    <a up-dash class="block text-lg text-white" href="/press/">Press & Media</a>
-    <a up-dash class="block text-lg text-white" href="/license/">License</a>
-
-    <span class="block mb-1 mt-8 uppercase tracking-wide font-medium text-teal text-sm">
-      Support
-    </span>
-    <a up-dash class="block text-lg text-white" href="/faqs/">FAQs & Support</a>
     <a up-dash class="block text-lg text-white" href="/contact/">Contact</a>
   </nav>
 
@@ -94,50 +75,27 @@
       <img src="/dist/img/logo.png" alt="Veil" width="88">
     </a>
     <nav class="absolute pin-y pin-x-center flex items-center">
+      <a href="/about/" class="py-3 px-4 text-white opacity-75 hover:opacity-100">
+      About
+      </a>
+      <a href="/team/" class="py-3 px-4 text-white opacity-75 hover:opacity-100">
+      Team
+      </a>
       <div class="Dropdown text-white opacity-75 hover:opacity-100">
         <span class="block py-3 px-4 pointer-events-none">
-          Technology
-        </span>
-        <div class="Dropdown-menu">
-          <a up-dash class="hover:text-blue" href="/technology/">Overview</a>
-          <a up-dash class="hover:text-blue" href="/specs/">Specifications</a>
-        </div>
-      </div>
-      <div class="Dropdown text-white opacity-75 hover:opacity-100">
-        <span class="block py-3 px-4 pointer-events-none">
-          About
-        </span>
-        <div class="Dropdown-menu">
-          <a up-dash class="hover:text-blue" href="/about/">About Veil</a>
-          <a up-dash class="hover:text-blue" href="/team/">Our Team</a>
-          <a up-dash class="hover:text-blue" href="/veil-labs/">Veil Labs</a>
-        </div>
-      </div>
-      <div class="Dropdown text-white opacity-75 hover:opacity-100">
-        <span class="block py-3 px-4 pointer-events-none">
-          Resources
+          News
         </span>
         <div class="Dropdown-menu">
           <a up-dash class="hover:text-blue" href="/news/">News</a>
           <a up-dash class="hover:text-blue" href="/blog/">Blog</a>
-          <a up-dash class="hover:text-blue" href="/press/">Press & Media</a>
-          <a up-dash class="hover:text-blue" href="/license/">License</a>
         </div>
       </div>
-      <div class="Dropdown text-white opacity-75 hover:opacity-100">
-        <span class="block py-3 px-4 pointer-events-none">
-          Support
-        </span>
-        <div class="Dropdown-menu">
-          <a up-dash class="hover:text-blue" href="/faqs/">FAQs & Support</a>
-          <a up-dash class="hover:text-blue" href="/contact/">Contact</a>
-        </div>
-      </div>
+      <a href="/contact/" class="py-3 px-4 text-white opacity-75 hover:opacity-100">
+      Contact
+      </a>
     </nav>
     <div class="px-8">
-      <a up-dash href="/get-started/" class="block leading-none pt-3 pb-2 px-4 text-teal border-2 border-teal hover:border-white rounded-full whitespace-no-wrap hover:text-white">
-        Get Started
-      </a>
+      <div data-price up-keep up-id="marketprice2"><span class="text-white opacity-25">Loading…</span></div>
     </div>
   </div>
 </div>
@@ -195,6 +153,10 @@
       <td>Website</td>
       <td><a href="https://veil-project.com/">https://veil-project.com/</a></td>
     </tr>
+    <tr>
+      <td>Explorer</td>
+      <td><a href="https://explorer.veil-project.com/">https://explorer.veil-project.com/</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -208,15 +170,15 @@
   <tbody>
     <tr>
       <td>Concensus Mechanism</td>
-      <td>Hybrid Proof-of-Work and Proof-of-Stake model beginning on Jan 1, 2019 to a minimum of Jan 1, 2020. This phase will not be extended if ASICs are created for the algorithm. PoW and PoS are competing for the block rewards.</td>
+      <td>Hybrid Proof-of-Work and Proof-of-Stake model.</td>
     </tr>
     <tr>
-      <td>Proof-of- Work</td>
+      <td>Proof-of-Work</td>
       <td><a href="/faqs/#x16rt">X16RT Mining Algorithm</a></td>
     </tr>
     <tr>
       <td>Proof-of-Stake</td>
-      <td>PoS will be the consensus model after the hybrid consensus period ends. Staking is done exclusively with Zerocoin.</td>
+      <td>Exclusively with Zerocoin.</td>
     </tr>
     <tr>
       <td>Block time</td>
@@ -294,47 +256,26 @@
   <div class="flex-1 flex flex-col justify-between lg:pt-8 md:pr-8">
     <nav class="flex flex-wrap lg:flex-no-wrap">
       <div class="flex-none w-1/2 mt-8 md:mt-0 lg:flex-1 lg:w-auto border-l-2 border-teal-dark pl-4">
-        <h1 class="uppercase text-sm font-medium text-teal tracking-wide">Veil Project</h1>
+        <h1 class="uppercase text-sm font-medium text-teal tracking-wide">Veil Labs</h1>
         <ul class="list-reset mt-3">
           <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/">Home</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/technology/">Technology</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/specs/">Specifications</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/get-started/">Get Started</a></li>
+          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/about/">About</a></li>
+          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/team/">Team</a></li>
+          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/contact/">Contact</a></li>
         </ul>
       </div>
 
       <div class="flex-none w-1/2 mt-8 md:mt-0 lg:flex-1 lg:w-auto border-l-2 border-teal-dark pl-4">
-        <h1 class="uppercase text-sm font-medium text-teal tracking-wide">About Veil</h1>
+        <h1 class="uppercase text-sm font-medium text-teal tracking-wide">News & Publications</h1>
         <ul class="list-reset mt-3">
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/about/">About Veil</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/team/">Our Team</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/veil-labs/">Veil Labs</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/blog/">Blog</a></li>
           <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/news/">News</a></li>
-        </ul>
-      </div>
-
-      <div class="flex-none w-1/2 mt-8 lg:mt-0 lg:flex-1 lg:w-auto border-l-2 border-teal-dark pl-4">
-        <h1 class="uppercase text-sm font-medium text-teal tracking-wide">Resources</h1>
-        <ul class="list-reset mt-3">
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/press/">Press & Media</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/license/">License</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/privacy/">Privacy Policy</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/terms/">Terms of Service</a></li>
-        </ul>
-      </div>
-
-      <div class="flex-none w-1/2 mt-8 lg:mt-0 lg:flex-1 lg:w-auto border-l-2 border-teal-dark pl-4">
-        <h1 class="uppercase text-sm font-medium text-teal tracking-wide">Support</h1>
-        <ul class="list-reset mt-3">
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/faqs/">FAQ & Support</a></li>
-          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/contact/">Contact</a></li>
+          <li><a class="text-white opacity-75 hover:opacity-100" up-dash href="/blog/">Blog</a></li>
         </ul>
       </div>
     </nav>
     <hr class="border-t border-black opacity-50 m-0 mt-8 lg:mt-12">
     <div class="flex flex-col md:flex-row justify-between items-center pt-6 -mb-2">
-      <p class="m-0 text-sm text-white opacity-50">&copy; Veil Project 2018.</p>
+      <p class="m-0 text-sm text-white opacity-50">&copy; Veil Project 2019.</p>
       <div class="flex-none mt-4 md:-my-3">
         <ul class="list-reset flex justify-between -mx-3">
   <li class="p-3">
@@ -400,6 +341,6 @@
   <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/unpoly@0.57.0/dist/unpoly.min.js" integrity="sha384-C/XDOTME3a/t4rsTSYavivw0b1mIEwHiOjb+4/xKAZ0fAwnMSRKImsVIZeXvc+20" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="/dist/js/veil.js?v=da41dcd84a"></script>
+  <script src="/dist/js/veil.js?v=6f0e358232"></script>
 </body>
 </html>

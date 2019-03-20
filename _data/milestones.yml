@@ -1,44 +1,26 @@
-- date: 2018-11-07
+- date: 2019 Q2
   title:
-    en: Official ANN Launch
-- date: 2018-11-24
+    en: Launch of Veil Labs
+- date: 2019 Q2
   title:
-    en: Website launch
-- date: 2019-01-01
+    en: Build out the initial team
+- date: 2019 Q2
   title:
-    en: Anonymize Basecoin with RingCT
+    en: Begin research of delegated staking
   desc:
-    en: 'By complementing Veil’s Zerocoin anonymity with RingCT protection of Basecoin transactions, Veil achieves "always-on" privacy.'
-- date: 2019-01-01
-  title:
-    en: Implement Dandelion
-  desc:
-    en: Dandelion helps to prevent source node traceback.
+    en: 'Delegated staking allows users to stake their currency from hardware wallets.'
 - date: 
   title:
-    en: Wallet chain pruning
+    en: Technology area 2
   desc:
-    en: By removing unnecessary transactions from the local blockchain, pruning can dramatically reduce the storage space needed by a wallet.
+    en: Technology area 2 description
 - date: 
   title:
-    en: Elastic blocks
+    en: Technology area 3
   desc:
-    en: Elastic blocks allow the network to scale dynamically according to current transaction volume.
-- date:
+    en: Technology area 3 description
+- date: 
   title:
-    en: Custom solution for scalability
-- date:
-  title:
-    en: Delegated staking
+    en: Technology area 4
   desc:
-    en: Delegated staking allows staked Veil to be held offline in a hardware wallet.
-- date:
-  title:
-    en: User-to-user Zerocoin transactions
-  desc:
-    en: User-to-user Zerocoin transactions provides for even greater anonymity through bypassing the Basecoin transition altogether.
-- date:
-  title:
-    en: RingCT support for Zerocoin spends
-  desc:
-    en: Basecoin stealth addresses will be available at launch, with Zerocoin support to be added later.
+    en: Technology area 4 description
