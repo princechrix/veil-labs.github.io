@@ -1,7 +1,8 @@
-title: Veil
-description: The first Zerocoin-based cryptocurrency with always-on privacy.
-url: https://veil-project.com
+title: Veil Labs
+description: Research and development in the domains of privacy, cryptography and blockchain technologies.
+url: https://veil-labs.com
 logo: /icons/logo.jpg
+encoding: UTF-8
 social:
   links:
     - https://www.facebook.com/projectveil/
@@ -30,8 +31,6 @@ collections:
   team:
     output: true
   news:
-    output: true
-  lori:
     output: true
 
 feed:
